@@ -1,4 +1,4 @@
-# X2Go Docker base image
+# NoMachine Docker base image
 
 ## See Firefox.Dockerfile as example
 Run the Firefox example with:
