@@ -15,7 +15,7 @@ RUN apt-get update -y && apt-get install -y \
     pulseaudio \
     sudo \
     xdg-utils \
-    xfce4 \
+    mate-desktop-environment-extras \
     xterm \
     && rm -rf /var/lib/apt/lists/*
 
