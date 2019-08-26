@@ -16,6 +16,7 @@ RUN apt-get update -y && apt-get install -y \
     sudo \
     xdg-utils \
     xfce4 \
+    xterm \
     && rm -rf /var/lib/apt/lists/*
 
 RUN export URL=$(curl -s 'https://www.nomachine.com/download/download&id=6' | grep -oP "saveck.+\.deb" | grep -oP --color=never "https:\/\/download\.nomachine\.com\/download\/.+\.deb") \
